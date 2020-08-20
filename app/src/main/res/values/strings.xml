@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-Participation</string>
+    <string-array name="lists">
+        <item>Transportation</item>
+        <item>Food</item>
+        <item>Services</item>
+        <item>Social</item>
+        <item>Other</item>
+    </string-array>
+</resources>

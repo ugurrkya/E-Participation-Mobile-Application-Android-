@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#c8ab78a5"
+        android:id="@+id/toolbar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <Button
+        android:id="@+id/add_post"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/transportation"
+        android:text="Transportation"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="51dp"/>
+    <Button
+        android:layout_marginLeft="3dp"
+        android:id="@+id/food"
+        android:text="Food"
+        android:layout_toRightOf="@+id/transportation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="51dp"/>
+    <Button
+        android:layout_marginLeft="3dp"
+        android:id="@+id/services"
+        android:text="Services"
+        android:layout_toRightOf="@+id/food"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="51dp"/>
+    <Button
+        android:layout_marginLeft="3dp"
+        android:id="@+id/social"
+        android:text="Social"
+        android:layout_toRightOf="@+id/services"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="51dp"/>
+    <Button
+        android:layout_marginLeft="3dp"
+        android:id="@+id/other"
+        android:text="Other"
+        android:layout_toRightOf="@+id/social"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="51dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="92dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginStart="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerView"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

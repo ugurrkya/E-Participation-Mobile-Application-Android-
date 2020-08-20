@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "169912726864",
+    "firebase_url": "https://e-participation-47790.firebaseio.com",
+    "project_id": "e-participation-47790",
+    "storage_bucket": "e-participation-47790.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169912726864:android:ec8d60c1391ca795",
+        "android_client_info": {
+          "package_name": "com.ep.sb.e_participation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169912726864-57n0nv69jheuo9ia3r2t66on1v63pcpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKP15PSbew-MvSajpQW0euHU7l9ezdgCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169912726864-57n0nv69jheuo9ia3r2t66on1v63pcpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

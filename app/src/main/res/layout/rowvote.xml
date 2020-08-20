@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#b0c5c6"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titlename"
+            android:text="Title Name"
+            android:textColor="#b25046"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginTop="60dp"
+            android:text="Voted"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="45dp"
+            android:layout_height="20dp" />
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:text="01/01/2019"
+            android:textColor="#e093ae4f"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/usname"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:text="Username"
+            android:textColor="#102d16"/>
+        <TextView
+            android:text="20"
+            android:id="@+id/votedno"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:textColor="#000"
+            android:layout_marginLeft="48dp"/>
+        <TextView
+            android:text="times."
+            android:layout_width="40dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:layout_marginLeft="68dp"/>
+        <TextView
+            android:id="@+id/yesnumber"
+            android:text="10"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:text="Yes,"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:textColor="#16690b"
+            android:layout_marginLeft="130dp"/>
+        <TextView
+            android:id="@+id/nonumber"
+            android:text="10"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:textColor="#000"
+            android:layout_marginLeft="162dp"/>
+        <TextView
+            android:text="No"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="61dp"
+            android:textColor="#99080d"
+            android:layout_marginLeft="184dp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
